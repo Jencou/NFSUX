@@ -22,6 +22,9 @@
     <link href="css/loginStyles.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+    <!--Denne linje kode gør det muligt at benytte FontAwesome's icon'er-->
+    <script src="https://kit.fontawesome.com/df35710484.js" crossorigin="anonymous"></script>
+
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -39,7 +42,7 @@
     </div>
     <!--Lille logo-->
     <div class="row m-0 g-0 d-md-none">
-        <div class="col-12 d-flex  justify-content-center align-items-center">
+        <div class="col-12 d-flex justify-content-center align-items-center shadow">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="291.63" height="55.647" viewBox="0 0 291.63 55.647">
                 <defs>
                     <clipPath id="clip-path">
@@ -97,9 +100,13 @@
     </div>
 </div>
 
-<div class="container-fluid d-flex p-0 m-0 container2Picture ">
+<div class="container-fluid d-flex flex-column p-0 m-0 container2Picture ">
+    <!--BackArrow-->
     <div class="row m-0 g-0">
-        <div class="col-12">
+        <div class="col-3 m-3">
+            <a href="index.html">
+                <i class="fa-solid fa-angle-left fa-3x link-arrowColor"></i>
+            </a>
             <!--Stort logo-->
 <!--            <div class="row m-0 g-0 d-none d-md-flex">-->
 <!--                <div class="col-6 d-flex  justify-content-end align-items-center">-->
@@ -107,6 +114,37 @@
 <!--                </div>-->
 <!--            </div>-->
         </div>
+    </div>
+    <!--PatientLogin-->
+    <div class="row m-0 g-0 text-patientColor text-center mt-3 mb-5">
+        <p class="display-1">Patientlogin</p>
+    </div>
+    <div class="row m-0 g-0 text-center">
+        <form method="get" action="infoPage.html">
+
+            <label for="cprnummer"></label>
+
+            <input class="p-2"
+                   id="cprnummer"
+                   name="cprnummer"
+                   type="text"
+                   value=""
+                   placeholder="CPR-nummer">
+
+            <label for="telefonnummer"></label>
+
+            <input class="p-2"
+                   id="telefonnummer"
+                   name="telefonnummer"
+                   type="text"
+                   value=""
+                   placeholder="Telefonnummer">
+
+            <!-- Submit knappen -->
+            <input class="loginKnap m-4"
+                   type="submit"
+                   value="Log ind">
+        </form>
     </div>
     <div class="row m-0 g-0">
         <div class="col-12">

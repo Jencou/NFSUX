@@ -50,7 +50,9 @@ $theme-colors: (
 
 $custom-colors: (
         "logoColor": #ff00ff,
-        "darkBlue": #0C4EAC
+        "darkBlue": #0C4EAC,
+        "arrowColor": #018AAE,
+        "patientColor": #00A21F
 );
 
 // Merge the maps
@@ -58,5 +60,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
+
+$mainSans: sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
