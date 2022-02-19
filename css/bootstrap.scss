@@ -35,6 +35,7 @@ $danger:        #dc3545 !default;
 $light:         #f8f9fa !default;
 $dark:          #212529 !default;
 
+
 $theme-colors: (
 
         "primary":    $primary,
@@ -64,3 +65,4 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 $mainSans: sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
