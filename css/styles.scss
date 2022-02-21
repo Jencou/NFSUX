@@ -32,3 +32,14 @@ img {
   max-width: 100%; /* Bredde må maks fylde 100% */
   height: auto; /* Højden skal tilpasse sig */
 }
+
+// TABLET LOGO - vises ikke på mobil-versionen
+.logo_long{
+  width: 50%;
+}
+
+// PATIENT_IMG
+.img_patient{
+  width: 10%;
+}
+
