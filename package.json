@@ -1,7 +1,6 @@
 {
   "name": "ownsassbootstraptemplate",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "watch": "onchange \"css/*.scss\" -- npm run sass",
@@ -15,5 +14,14 @@
   },
   "dependencies": {
     "bootstrap": "^5.1.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jencou/NFSUX.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jencou/NFSUX/issues"
+  },
+  "homepage": "https://github.com/Jencou/NFSUX#readme",
+  "description": ""
 }
