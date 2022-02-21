@@ -36,17 +36,59 @@ img {
 // TABLET LOGO - vises ikke på mobil-versionen
 .logo_long{
   width: 50%;
+  margin-top: 20px;
 }
 
 // PATIENT_IMG
 .img_patient{
-  width: 60%;
+  width: 70%;
+  margin: 10px;
 }
 
-@media screen and (min-width: 768){
+.img_visitors{
+  width: 70%;
+  margin-top: 40px;
+}
+
+.button1{
+  font-size: 20px;
+  border: 3px solid #00A21F;
+  border-radius: 12px;
+  padding-right: 12px;
+}
+
+.button2{
+  font-size: 20px;
+  border: 3px solid #3D7CD2;
+  border-radius: 12px;
+}
+.icons{
+
+}
+
+
+@media screen and (min-width: 768px){
+
   .img_patient{
-    width: 70%;
+    width: 75%;
+
   }
+
+  .img_visitors{
+    width: 65%;
+  }
+
+  .button1{
+    font-size: 24px;
+    padding-left: 1px;
+  }
+
+  .button2{
+    font-size: 24px;
+    padding-right: 50px;
+  }
+
+
 
 
 }
