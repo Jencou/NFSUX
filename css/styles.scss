@@ -33,23 +33,25 @@ img {
   height: auto; /* Højden skal tilpasse sig */
 }
 
-// TABLET LOGO - vises ikke på mobil-versionen
+// Tablet logo - vises ikke på mobil-versionen
 .logo_long{
   width: 50%;
   margin-top: 20px;
 }
 
-// PATIENT_IMG
+// Patient_img
 .img_patient{
   width: 70%;
   margin: 10px;
 }
 
+// "Pårørende"_img
 .img_visitors{
   width: 70%;
   margin-top: 40px;
 }
 
+// Ikonbilledernes ikoner
 .button1{
   font-size: 20px;
   border: 3px solid #00A21F;
@@ -62,13 +64,11 @@ img {
   border: 3px solid #3D7CD2;
   border-radius: 12px;
 }
-.icons{
-
-}
 
 
 @media screen and (min-width: 768px){
 
+  // Ikon-billederne
   .img_patient{
     width: 75%;
 
@@ -77,6 +77,8 @@ img {
   .img_visitors{
     width: 65%;
   }
+
+  // Ikon-billedernes knapper
 
   .button1{
     font-size: 24px;
