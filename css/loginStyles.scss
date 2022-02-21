@@ -24,7 +24,34 @@
   max-width: 100vw;
   //opacity: 40%;
 }
+.container3Picture{
+  background-image: url("./../image/lillafodsporSM.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 91vh;
+  max-width: 100vw;
+}
+
 .loginKnap{
+  background-color: #018AAE;
+}
+
+.container__infoboks{
+  position: fixed;
+  top: 15vh;
+  left: 25vw;
+  width: 60vw;
+  max-width: 65vh;
+  height: auto;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.container__knap{
+  position: fixed;
+  bottom: 5vh;
+  right: 15vw;
   background-color: #018AAE;
 }
 
@@ -33,8 +60,15 @@
     height: 98vh;
     background-size: contain;
   }
+  .container3Picture{
+    background-size: contain;
+    background-position: left;
+    height: 98vh;
+  }
+  .container__infoboks{
+    top: 30vh;
+  }
   .loginKnap{
     font-size: 1.5rem;
   }
-
 }
