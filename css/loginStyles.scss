@@ -1,22 +1,40 @@
 .blue-frame{
   position: fixed;
+  top: 0;
+  left: 0;
+  height: 2vh;
+  width: 100vw;
+}
+.blue-frame-bot{
+  position: fixed;
   bottom: 0;
   left: 0;
   height: 2vh;
   width: 100vw;
 }
 .containerPicture{
-  width: 40vw;
+  width: 45vw;
 }
 .container2Picture{
   background-image: url("./../image/nykcircle.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 88vh;
+  height: 91vh;
   max-width: 100vw;
   //opacity: 40%;
 }
 .loginKnap{
   background-color: #018AAE;
+}
+
+@media screen and (min-width:767px) {
+  .container2Picture{
+    height: 98vh;
+    background-size: contain;
+  }
+  .loginKnap{
+    font-size: 1.5rem;
+  }
+
 }
