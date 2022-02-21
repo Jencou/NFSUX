@@ -40,6 +40,14 @@ img {
 
 // PATIENT_IMG
 .img_patient{
-  width: 10%;
+  width: 60%;
+}
+
+@media screen and (min-width: 768){
+  .img_patient{
+    width: 70%;
+  }
+
+
 }
 
