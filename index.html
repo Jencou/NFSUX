@@ -21,6 +21,10 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/loginStyles.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/styles2.css" rel="stylesheet" type="text/css">
+
+    <!--Denne linje kode gør det muligt at benytte FontAwesome's icon'er-->
+    <script src="https://kit.fontawesome.com/df35710484.js" crossorigin="anonymous"></script>
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,10 +34,16 @@
 <body>
 
 <!-- Her skal sidens indhold ligge -->
-
-<div class="container-fluid d-md-none shadow">
-    <div class="row">
-        <div class="col-12 d-flex justify-content-center">
+<div class="container-fluid p-0 m-0">
+    <!--Blue line-->
+    <div class="row m-0 g-0 d-none d-md-block">
+        <div class="col-12">
+            <div class="bg-darkBlue blue-frame"></div>
+        </div>
+    </div>
+    <!--Lille logo-->
+    <div class="row m-0 g-0 d-md-none">
+        <div class="col-12 d-flex justify-content-center align-items-center shadow">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="291.63" height="55.647" viewBox="0 0 291.63 55.647">
                 <defs>
                     <clipPath id="clip-path">
@@ -91,33 +101,22 @@
     </div>
 </div>
 
-
-<div class="container-fluid m-0 p-0 d-none d-md-block">
+<div class="container-fluid d-flex flex-column p-0 m-0 ">
     <div class="row m-0 g-0">
-        <div class="col-12">
-            <div class="bg-darkBlue blue-frame"></div>
-        </div>
-        <div class="col-12 d-flex justify-content-end">
-            <img class="logo_long" src="image/long-logo.png" alt="logo">
+        <div class="col-12  d-md-flex justify-content-end">
+            <!--Stort Logo-->
+            <img class="d-none d-md-flex containerPicture mt-5 mx-4 p-0" src="image/NFS%20RS%20Logo.png" alt="Region Sjælland Billede">
         </div>
     </div>
-</div>
-
-<div class="container-fluid m-0 p-0">
-    <div class="row d-flex justify-content-center">
-        <div class="col-12 mt-5 mt-md-0 col-md-6 d-flex justify-content-center">
-            <div class="img_patient gx-0">
-                <a class="d-flex justify-content-center align-items-center" href="login.html">
-                    <img class="container__img" src="image/patient-icon.png" alt="patient">
-                </a>
-            </div>
-        </div>
-        <div class="col-12 mt-3 mt-md-0 col-md-6 d-flex justify-content-center">
-            <div class="img_visitors gx-0">
-                <a class="d-flex justify-content-center align-items-center" href="loginVisitor.html">
-                    <img class="container__img" src="image/visitors-icon.png" alt="visitors">
-                </a>
-            </div>
+    <!--Patient/Pårørende-->
+    <div class="row m-0 g-0 mt-3 mb-5">
+        <div class="col-12 d-flex flex-column flex-md-row align-items-center justify-content-md-evenly">
+            <a href="login.html">
+                <img class="img_patient_visitor my-3" src="image/patient-icon.png" alt="patient">
+            </a>
+            <a href="loginVisitor.html">
+                <img class="img_patient_visitor my-3" src="image/visitors-icon.png" alt="visitors">
+            </a>
         </div>
     </div>
     <div class="row m-0 g-0">

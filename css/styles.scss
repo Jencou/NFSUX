@@ -34,30 +34,16 @@ img {
 }
 
 // Tablet logo - vises ikke på mobil-versionen
-.logo_long{
-  width: 50vw;
-}
+
 
 // Patient_img
-.img_patient{
-  width: 70%;
-}
-
-// "Pårørende"_img
-.img_visitors{
-  width: 70%;
+.img_patient_visitor{
+  width: 70vw;
 }
 
 @media screen and (min-width: 768px){
-
-  // Ikon-billederne
-  .img_patient{
-    width: 75%;
-
-  }
-
-  .img_visitors{
-    width: 70%;
+  .img_patient_visitor{
+    width: 35vw;
   }
 }
 
