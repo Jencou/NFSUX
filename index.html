@@ -32,9 +32,8 @@
 <!-- Her skal sidens indhold ligge -->
 
 <div class="container-fluid d-md-none shadow">
-        <!--Blue line-->
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 d-flex justify-content-center">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="291.63" height="55.647" viewBox="0 0 291.63 55.647">
                 <defs>
                     <clipPath id="clip-path">
@@ -104,35 +103,29 @@
     </div>
 </div>
 
-<div class="container-fluid">
-    <div class="row icons justify-content-center d-md-flex">
-            <div class="col-12 col-md-6">
-                <div class="img_patient mt-md-4 m-5 gx-0">
-                    <img src="image/patient_.svg" alt="patient">
-                    <button class="button1 text-patientColor bg-white p-2"><strong>Patient</strong></button>
-                </div>
+<div class="container-fluid m-0 p-0">
+    <div class="row d-flex justify-content-center">
+        <div class="col-12 mt-5 mt-md-0 col-md-6 d-flex justify-content-center">
+            <div class="img_patient gx-0">
+                <a class="d-flex justify-content-center align-items-center" href="login.html">
+                    <img class="container__img" src="image/patient-icon.png" alt="patient">
+                </a>
             </div>
-            <div class="col-12 col-md-6">
-                <div class="img_visitors mt-md-4 m-5 mt-0 gx-0">
-                    <a href="loginVisitor.html">
-                        <img src="image/visitors_.svg" alt="visitors">
-                        <button class="button2 text-visitorColor bg-white p-2"><strong>Pårørende</strong></button>
-                    </a>
-                </div>
+        </div>
+        <div class="col-12 mt-3 mt-md-0 col-md-6 d-flex justify-content-center">
+            <div class="img_visitors gx-0">
+                <a class="d-flex justify-content-center align-items-center" href="loginVisitor.html">
+                    <img class="container__img" src="image/visitors-icon.png" alt="visitors">
+                </a>
             </div>
+        </div>
     </div>
-</div>
-
-<div class="container-fluid d-md-flex">
-    <div class="row">
+    <div class="row m-0 g-0">
         <div class="col-12">
             <div class="bg-darkBlue blue-frame-bot"></div>
         </div>
     </div>
 </div>
-
-
-
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
