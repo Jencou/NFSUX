@@ -21,7 +21,6 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/loginStyles.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="css/styles2.css" rel="stylesheet" type="text/css">
 
     <!--Denne linje kode gør det muligt at benytte FontAwesome's icon'er-->
     <script src="https://kit.fontawesome.com/df35710484.js" crossorigin="anonymous"></script>
@@ -101,51 +100,33 @@
     </div>
 </div>
 
-<div class="container-fluid d-flex flex-column p-0 m-0 container2Picture ">
+<div class="container-fluid d-flex flex-column p-0 m-0 container3Picture ">
     <div class="row m-0 g-0">
-        <div class="col-12  d-md-flex justify-content-between">
-            <!--BackArrow-->
-            <a href="index.html">
-                <i class="fa-solid fa-angle-left fa-3x link-arrowColor m-3 m-md-5"></i>
-            </a>
+        <div class="col-12  d-md-flex justify-content-end">
             <!--Stort Logo-->
             <img class="d-none d-md-flex containerPicture mt-5 mx-4 p-0" src="image/NFS%20RS%20Logo.png" alt="Region Sjælland Billede">
         </div>
     </div>
-    <!--PatientLogin-->
-    <div class="row m-0 g-0 text-patientColor text-center mt-3 mb-5">
-        <p class="d-md-none display-1">Patientlogin</p>
-        <p class="d-none d-md-block display-2">Patientlogin</p>
+
+    <div class="row m-0 g-0">
+        <div class="col-12">
+            <div class="container__infoboks p-2 mt-4 text-center shadow">
+                <p>Velkommen: <span class="text-decoration-underline">pårørende</span> til:</p>
+                <h5 class="p-1 fw-bold">Henrik Christiansen</h5>
+                <p class="my-5">Du skal til afdeling:
+                    <span class="text-arrowColor">Røntgen og Scanning</span>
+                </p>
+                <p>Fortsæt ligeud.</p>
+                <p>Følg derefter de lilla fodspor i gulvet hen til elevatoren.</p>
+                <p>Tag elevatoren til niveau 3.</p>
+                <p>Derefter ankomst</p>
+            </div>
+            <a href="index.html">
+                <div class="container__knap text-white p-2 px-4 rounded-3 shadow">Afslut</div>
+            </a>
+        </div>
     </div>
-    <div class="row m-0 g-0 text-center">
-        <form method="get" action="infoPage.html">
 
-            <label for="cprnummer"></label>
-
-            <input class="p-2 px-md-5 py-md-3"
-                   id="cprnummer"
-                   name="cprnummer"
-                   type="text"
-                   placeholder="CPR-nummer">
-
-            <br>
-
-            <label for="telefonnummer"></label>
-
-            <input class="p-2 px-md-5 py-md-3"
-                   id="telefonnummer"
-                   name="telefonnummer"
-                   type="text"
-                   placeholder="Telefonnummer">
-
-            <br>
-
-            <!-- Submit knappen -->
-            <input class="loginKnap text-white m-4 p-1 px-2 rounded-3 shadow px-md-4 py-md-2 mt-5"
-                   type="submit"
-                   value="Log ind">
-        </form>
-    </div>
     <div class="row m-0 g-0">
         <div class="col-12">
             <div class="bg-darkBlue blue-frame-bot"></div>
